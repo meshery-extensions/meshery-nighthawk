@@ -1,30 +1,30 @@
----
 #-------------------------------------------------------------------------------
 # Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
-# Comment to be posted to on first time issues
+ # Comment to be posted to on first time issues
 newIssueWelcomeComment: >
-  Thanks for opening this issue. A contributor will be by to give feedback soon. In the meantime, please review the [Contributors' Welcome Guide](https://docs.meshery.io/project/community), engage in the [discussion forum](https://docs.meshery.io/project/community), engage in the [discussion forum](https://meshery.io/community#community-forums), and be sure to join the [community Slack](http://slack.meshery.io/)
-# Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
-# Comment to be posted to on PRs from first time contributors in your repository
+   Thanks for opening this issue. A contributor will be by to give feedback soon. In the meantime, please review the [Meshery Contributors' Welcome Guide](https://docs.google.com/document/d/17OPtDE_rdnPQxmk2Kauhm3GwXF1R5dZ3Cj8qZLKdo5E/edit?usp=sharing) and sure to join the [community Slack](https://slack.meshery.io).
+ # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
+ # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
-  Yay, your first pull request! :thumbsup: A contributor will be by to give feedback soon. In the meantime, please review the [Contributors' Welcome Guide](https://docs.meshery.io/project/community) and sure to join the [community Slack](https://slack.meshery.io/).
+   Yay, your first pull request! :thumbsup: A contributor will be by to give feedback soon. In the meantime, please review the [Meshery Contributors' Welcome Guide](https://docs.meshery.io/project/contributing) and sure to join the [community Slack](https://slack.meshery.io).
 
-  Be sure to double-check that you have signed your commits. Here are instructions for [making signing an implicit activity while performing a commit](https://github.com/layer5io/layer5/blob/master/CONTRIBUTING.md#signing-off-on-commits-developer-certificate-of-origin).
+   Be sure to double-check that you have signed your commits. Here are instructions for [making signing an implicit activity while peforming a commit](https://github.com/meshery/meshery/blob/master/CONTRIBUTING.md#signing-off-on-commits-developer-certificate-of-origin).
+
 
 #-------------------------------------------------------------------------------
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
-  Thanks for your contribution to Meshery! :tada:
-   
+  Thanks for your contribution to the Meshery community! :tada:
+
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/meshery/meshery/master/.github/assets/images/Meshery-celebration-Dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/meshery/meshery/master/.github/assets/images/Meshery-celebration-Light.svg">
-  <img alt="Meshery black logo in light color mode and a white one in dark color mode." src=" ">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/meshery/meshery.io/master/.github/welcome/Meshery-darkmode-celebration.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/meshery/meshery-consul/master/.github/welcome/Meshery-Lightmode-celebration.svg">
+  <img alt="Meshery Celebration logo" src="https://raw.githubusercontent.com/meshery/meshery.io/master/.github/welcome/Meshery-darkmode-celebration.svg">
   </picture>
-
-  &nbsp; &#9; &nbsp; &#9;  &nbsp; &#9;  &nbsp; &#9; [Join the community](http://slack.meshery.io), if you haven't yet and please leave a :star: [star on the project](../stargazers). :smile:
-
+  
+  &nbsp; &#9; &nbsp; &#9;  &nbsp; &#9;  &nbsp; &#9; [Join the community](https://slack.meshery.io), if you haven't yet and please leave a :star: [star on the project](../stargazers). :smile:
+  
 #-------------------------------------------------------------------------------
 # Configuration for request-info - https://github.com/behaviorbot/request-info
 # Comment to reply with
@@ -33,7 +33,8 @@ requestInfoReplyComment: >
 # *OPTIONAL* Add a list of people whose Issues/PRs will not be commented on
 # keys must be GitHub usernames
 #requestInfoUserstoExclude:
-#  - layer5io/maintainers
+#  - meshery/maintainers
+
 
 #-------------------------------------------------------------------------------
 # Configuration for sentiment-bot - https://github.com/behaviorbot/sentiment-bot
@@ -43,5 +44,6 @@ sentimentBotToxicityThreshold: .9
 
 # *Required* Comment to reply with
 sentimentBotReplyComment: >
-  Please be sure to review the code of conduct and be respectful of other users. // @meshery/maintainers
+  Please be sure to review the code of conduct and be respectful of other users. // @meshery/maintainers 
+  
 

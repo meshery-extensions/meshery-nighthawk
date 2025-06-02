@@ -16,10 +16,10 @@
 [![Build Status](https://img.shields.io/github/actions/workflow/status/meshery/meshery-nighthawk/multi-platform.yml?branch=master)](https://github.com/meshery/meshery-nighthawk/actions)
 [![GitHub](https://img.shields.io/github/license/meshery/meshery-nighthawk.svg)](LICENSE)
 [![GitHub issues by-label](https://img.shields.io/github/issues/meshery/meshery-nighthawk/help%20wanted.svg)](https://github.com/meshery/meshery-nighthawk/issues?q=is%3Aopen+is%3Aissue+label%3A"help+wanted")
-[![Website](https://img.shields.io/website/https/layer5.io/meshery.svg)](https://meshery.io)
+[![Website](https://img.shields.io/website/https/meshery/meshery.svg)](https://meshery.io)
 [![Twitter Follow](https://img.shields.io/twitter/follow/layer5.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=mesheryio)
 [![Discuss Users](https://img.shields.io/discourse/users?server=http%3A%2F%2Fdiscuss.meshery.io)](https://meshery.io/community#discussion-forums)
-[![Slack](https://img.shields.io/badge/Slack-@layer5.svg?logo=slack)](https://slack.meshery.io)
+[![Slack](https://img.shields.io/badge/Slack-@meshery.svg?logo=slack)](https://slack.meshery.io/)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3564/badge)](https://bestpractices.coreinfrastructure.org/projects/3564)
 
 </div>
@@ -52,7 +52,7 @@ Our projects are community-built and welcome collaboration. 👍 Be sure to see 
 <p>
 ✔️ <em><strong>Join</strong></em> any or all of the weekly meetings on the <a href="https://meshery.io/calendar">community calendar</a>.<br />
 ✔️ <em><strong>Watch</strong></em> community <a href="https://www.youtube.com/@mesheryio?sub_confirmation=1">meeting recordings</a>.<br />
-✔️ <em><strong>To access the Community Drive</strong></em>, fill <a href="https://layer5.io/newcomer">Community Member Form</a>.<br />
+✔️ <em><strong>To access the Community Drive</strong></em>, fill <a href="https://meshery.io/newcomers ">Community Member Form</a>.<br />
 ✔️ <em><strong>Discuss</strong></em> in the <a href="https://meshery.io/community#discussion-forums">Community Forum</a>.<br />
 </p>
 <p align="center">

@@ -10,7 +10,7 @@ replace (
 
 require (
 	github.com/google/uuid v1.6.0
-	github.com/layer5io/meshery-adapter-library v0.7.2
+	github.com/layer5io/meshery-adapter-library v1.1.0
 	github.com/layer5io/meshkit v0.7.18
 	github.com/sirupsen/logrus v1.9.3
 	gopkg.in/yaml.v2 v2.4.0
@@ -31,7 +31,6 @@ require (
 	github.com/Microsoft/hcsshim v0.11.4 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/chai2010/gettext-go v1.0.2 // indirect
 	github.com/cockroachdb/apd/v3 v3.2.1 // indirect

@@ -17,7 +17,7 @@
 [![GitHub](https://img.shields.io/github/license/meshery/meshery-nighthawk.svg)](LICENSE)
 [![GitHub issues by-label](https://img.shields.io/github/issues/meshery/meshery-nighthawk/help%20wanted.svg)](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20archived%3Afalse%20(org%3Ameshery%20OR%20org%3Aservice-mesh-performance%20OR%20org%3Aservice-mesh-patterns%20OR%20org%3Ameshery-extensions)%20label%3A%22help%20wanted%22)
 [![Website](https://img.shields.io/website/https/meshery/meshery.svg)](https://meshery.io)
-[![Twitter Follow](https://img.shields.io/twitter/follow/layer5.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=mesheryio)
+[![Twitter Follow](https://img.shields.io/twitter/follow/meshery.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=mesheryio)
 [![Discuss Users](https://img.shields.io/discourse/users?server=http%3A%2F%2Fdiscuss.meshery.io)](https://meshery.io/community#discussion-forums)
 [![Slack](https://img.shields.io/badge/Slack-@meshery.svg?logo=slack)](https://slack.meshery.io/)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3564/badge)](https://bestpractices.coreinfrastructure.org/projects/3564)
@@ -26,7 +26,7 @@
 
 <p style="clear:both;">
 <h2><a href="https://meshery.io/">Meshery</a></h2>
-<a href="https://meshery.io"><img src="https://raw.githubusercontent.com/meshery/meshery/master/ui/public/static/img/meshery-logo/meshery-logo-light-text.png"
+<a href="https://meshery.io"><img src="https://raw.githubusercontent.com/meshery/meshery/master/.github/assets/images/meshery/meshery-logo.svg"
 style="margin:10px;" width="125px" 
 alt="Meshery - the Collaborative Cloud Manager" align="left" /></a>
 As a self-service engineering platform, <a href="https://meshery.io">Meshery</a> enables collaborative design and operation of cloud native infrastructure. Through it's extension points, Meshery offers the ability to optionally plugin adapters in order to more deeply integrate with specific systems like <a href="https://getnighthawk.dev">Nighthawk</a>.

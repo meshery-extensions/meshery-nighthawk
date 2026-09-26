@@ -34,7 +34,7 @@ func New(c meshkitCfg.Handler, l logger.Handler, kc meshkitCfg.Handler, ev *even
 }
 
 func (nighthawk *Nighthawk) ProcessOAM(ctx context.Context, req adapter.OAMRequest) (string, error) {
-	nighthawk.Log.Info("Processing request ", req)
+	nighthawk.Log.Info(fmt.Sprintf("Processing request with %d components and %d kubeconfigs", len(req.OamComps), len(req.K8sConfigs)))
 	return "", nil
 }
 
@@ -44,11 +44,10 @@ func (nighthawk *Nighthawk) ApplyOperation(ctx context.Context, opReq adapter.Op
 	if err != nil {
 		return err
 	}
-	kubeConfigs := opReq.K8sConfigs
 	operations := make(adapter.Operations)
 	requestedVersion := adapter.Version(opReq.Version)
 
-	nighthawk.Log.Info(fmt.Sprintf("Applying %s with kubeconfig %v: requested nighthawk-apater version %s", opReq.OperationName, kubeConfigs, requestedVersion))
+	nighthawk.Log.Info(fmt.Sprintf("Applying %s with %d kubeconfigs: requested nighthawk-apater version %s", opReq.OperationName, len(opReq.K8sConfigs), requestedVersion))
 	err = nighthawk.Config.GetObject(adapter.OperationsKey, &operations)
 	if err != nil {
 		return err
